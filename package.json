@@ -1,10 +1,21 @@
 {
-  "dependencies": {
-    "body-parser": "^1.20.2",
-    "connect": "^3.7.0",
-    "express": "^4.19.2",
-    "hbs": "^4.2.0",
-    "mongoose": "^8.3.1",
-    "nodemon": "^3.1.0"
-  }
+   "name": "Chat@Application",
+   "version": "1.0.0",
+   "description": "",
+   "main": "app.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node app.js"
+   },
+   "keywords": [],
+   "author": "vfvfvf",
+   "license": "ISC",
+   "dependencies": {
+      "express": "^4.17.1",
+      "moment-timezone": "^0.5.45",
+      "socket.io": "^4.1.1"
+   },
+   "engines": {
+      "node": ">=10.0.0"
+   }
 }
