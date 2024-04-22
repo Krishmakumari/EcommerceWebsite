@@ -1,0 +1,94 @@
+.header{
+    margin-top: 15px;
+}
+.logo {
+    text-align: center;
+    margin-left: 55px;
+    margin-right: 345px;
+    display: inline-block;
+}
+
+.nav {
+    display: inline-block;
+    text-align: right;
+    text
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration:none;
+    color: rgb(24, 20, 20);
+}
+.nav ul li a:hover {
+  color: #ada7a7; /* Change to the desired text color on hover */
+}
+
+
+.button {
+
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #888988;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #434443;
+}
+
+
+.shop h2 {
+  margin-top: 100px;
+  font-weight: 1200;
+  color: #050505b1;
+  font-size: 30px;
+  margin-bottom: 5px;
+  
+}
+
+.shop hr {
+  border: none;
+  width: 250px;
+  height: 5px;
+  background-color: #0f0f0f;
+  border-radius: 45px;
+  margin-bottom: 10px;
+}
+/*--cart items--*/
+.cart-page{
+  margin: 80px auto;
+  padding: 5px 25px 5px 25px;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+table thead{
+  font-weight: 700;
+}
+table thead td{
+  background: rgb(25, 25, 38);
+  color: white;
+  border: none;
+  padding: 15px;
+}
